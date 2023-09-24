@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "name": "Caffeine [Modpack Mod]",
+  "id": "caffeinemod",
+  "version": "${version}",
+  "description": "Modpack mod for DEBUG and fix bugs",
+  "authors": [
+    "Im_Kel (Kel Cuprum)"
+  ],
+  "contact": {
+    "repo": "https://github.com/simply-kel/caffeine-mod",
+    "homepage": "https://modrinth.com/mod/caffiene",
+    "issues": "https://github.com/simply-kel/caffeine-mod/issues",
+    "email": "kel@simplykel.ru"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.kelcuprum.caffeine.CaffeineMod"
+    ],
+    "modmenu": [
+      "ru.kelcuprum.caffeine.screens.ModMenuIntegration"
+    ]
+  },
+  "icon": "assets/caffeinemod/icon.png",
+  "depends": {
+    "fabricloader": ">=0.14.17",
+    "fabric": "*",
+    "minecraft": [">=1.20", "<1.20.2"]
+  },
+  "mixins": [
+    "caffeinemod.mixin.fix.json",
+    "caffeinemod.mixin.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.caffeinemod.github.mod": "https://github.com/simply-kel/caffeine-mod",
+        "modmenu.caffeinemod.github": "https://github.com/simply-kel/caffeine",
+        "modmenu.caffeinemod.modrinth": "https://modrinth.com/mod/caffiene",
+        "modmenu.caffeinemod.donate": "https://kelcuprum.ru/r/don"
+      }
+    }
+  }
+}

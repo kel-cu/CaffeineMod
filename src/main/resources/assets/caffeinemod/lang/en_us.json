@@ -1,0 +1,15 @@
+{
+  "caffeine.name": "Caffeine",
+
+  "caffeine.key.openConfig": "Open configs",
+  "caffeine.key.debug": "Toggle debug mod",
+
+  "caffeine.config.debug": "Debug Mode",
+  "caffeine.config.debug.tooltip": "Show Debug Information on HUD",
+
+  "modmenu.descriptionTranslation.caffeinemod": "Modpack mod for DEBUG and fix bugs",
+  "modmenu.caffeinemod.github.mod": "GitHub (Mod)",
+  "modmenu.caffeinemod.github": "GitHub (Mod Pack)",
+  "modmenu.caffeinemod.modrinth": "Modrinth",
+  "modmenu.caffeinemod.donate": "DonationAlerts"
+}
